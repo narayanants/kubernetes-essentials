@@ -1,0 +1,69 @@
+Introduction:
+=============
+
+Section 1: (Prerequisites)
+==========
+
+    - Monolithic
+    - Microservices
+    - Containers
+    - Physical vs VM vs Containers
+    - Docker 
+
+Section 2: ( Intro to Kubernetes)
+==========
+
+    - Intro to Kubernetes
+    - Top 3- CEOs
+    - Kubernetes?
+    - Kubernetes Architecture
+
+Section 3: ( Setting up Kubernetes)
+==========
+
+    - Setting up Kubernetes
+    - Play-with-k8s
+    - Minikube
+    - GKE (Google Kubernetes Engine)
+    - Kubeadm
+    - Kubectl
+
+Section 4: (Pods)
+===========
+
+    - PODS
+
+Section 5: (Configuration)
+==========
+
+    - configMaps
+    - Secrets
+
+Section 6: (Controllers)
+===========
+
+    - Replication Controllers
+    - ReplicaSet
+    - Deployments
+    - DaemonSet
+    - Jobs
+
+Section 7: (Services)
+============
+
+    -Services
+    - Nodeport Service
+    - LoadBalancer
+    - ClusterIP
+
+Section 8: (Storage)
+============
+
+    - Volumes?
+    - emptyDir
+    - hostPath
+    - GCE Persistent Disk
+    - PV & PVC
+    - Static Volume Provisioning
+    - Dynamic Volume Provisioning
+
