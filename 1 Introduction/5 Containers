@@ -1,0 +1,51 @@
+Containers:
+============
+
+    - Containers in general
+    - Containers in IT
+    - Container Architecture
+    - Advantages
+    - Container Engine
+
+
+    What are containers?
+    =====================
+
+        - Will your code run in a platform independent way
+        - Portable to run anywhere (Docker)
+
+    Container Architecture:
+    =======================
+
+        - Container virtualize at the OS level
+        - VM virtualize at the H/w level
+
+        Benefits:
+        ---------
+
+            - Very light weight
+            - Boots up in Seconds
+            - Takes very less physical resources
+        
+        Advantages:
+        ===========
+
+            - Portability
+            - Resource Efficiency
+            - Isolation
+            - Speed
+            - Scaling
+
+    
+            Container Engine
+            OS
+            Physical Servers
+
+
+        Container Engine:
+        =================
+
+            - Docker
+            - rkt
+
+        
