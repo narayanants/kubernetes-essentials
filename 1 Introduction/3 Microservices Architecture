@@ -1,0 +1,44 @@
+Microservices Architecture:
+===========================
+
+    - App should be easy to deploy
+    - Scale up and down based on traffic
+    - free from all technological dependencies
+
+
+    Objectives:
+    ===========
+
+        - What is Microservices>
+        - Microservices Architecture
+        - Advantages & Disadvantages
+        - Microservices vs Monolithic
+        - Runtime Environment
+
+    Microservices:
+    --------------
+
+        - Creating smaller APIs to handle a very specific concern.
+        
+    Characteristics:
+    ----------------
+
+        - Autonomous 
+        - Specialized
+
+    Advantages:
+    -----------
+
+        - Flexible Scaling
+        - Easy Deployment
+        - Technological Freedom
+        - Reusable code
+        - Resilience
+
+    Disadvantages:
+    --------------
+
+        - Spawning
+        - Maintenance
+
+    
