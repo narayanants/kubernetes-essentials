@@ -45,7 +45,7 @@ Containers:
         Container Engine:
         =================
 
-            - Docker
-            - rkt
+            - Docker 
+            - rkt - CoreOS
 
         
