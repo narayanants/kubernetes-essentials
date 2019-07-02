@@ -1,0 +1,28 @@
+Docker:
+======
+
+    - Docker is written in GO
+    - dotCloud => Docker
+
+
+    Build <=> Ship <=> Run
+
+
+    Big Problem:
+    ===========
+
+    - How to create and manage large scale of containers
+    - Connect various parts of an app
+    - Scale up or down your apps
+
+
+    Summary:
+    =========
+
+    What is Docker
+    What it does
+    Docker infrastructure stack
+    Docker Hub
+    Docker Project
+    Big Problem
+
