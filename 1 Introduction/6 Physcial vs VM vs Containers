@@ -1,0 +1,64 @@
+6 Physcial vs VM vs Containers:
+===============================
+
+
+Objectives:
+============
+
+    - Physcial Servers
+    - Virtual Machines
+    - Containers
+    - VMs vs Containers
+
+
+    Physcial Servers:
+    ------------------
+
+        - Metal Box
+        - One software app on a Physcial Servers
+    
+            Application
+            Operating System
+            Physcial Servers
+
+        Drawbacks:
+        ----------
+
+            - Procure Physcial Servers
+            - Powering and Cooling
+            - Overpriced
+
+    Virtualiztion:
+    ==============
+
+        - VMware and Virtualiztion (XEN)
+        - Multiple VMs on Single Machine
+        - Consolidate apps into single Physcial Machine
+        - Cost savings
+        - Faster server provisioning
+
+    Drawbacks:
+    ==========
+
+        - Requires compute and Storage
+        - OS Licenses
+        - RHEL is not for free
+        - Costs 
+        - Maintenance
+        - Power and space
+
+
+    Containers:
+    ============
+
+        - Containers virtualize at the OS level
+        - Multiple containers run on a single OS
+        - Light weight
+        - Portable
+        - Takes less resource
+
+    
+
+
+    
+    
