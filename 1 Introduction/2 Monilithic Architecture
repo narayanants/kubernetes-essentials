@@ -1,0 +1,53 @@
+Monolithic Architecture:
+=========================
+
+    - What is Monolithic?
+    - What is Monolithic Architecture
+    - Advantages & Disadvantages
+    - The Major challenge
+
+
+
+Monolithic Architecture: (3 tier Architecture)
+========================
+
+    - Self contained - Packaged and deployed as a single unit
+    - Three Tiered Architecture 
+
+        Presentation Layer - HTML, CSS
+        Application Layer - Business Logic
+        Data Layer - Data Store
+
+    Example:
+    =========
+
+        - Book store Web Application
+
+            - Accounts
+            - Payments
+            - Shipping
+            - Inventory
+
+Advantages:
+-----------
+
+    - Single Unit of Deployment
+    - IDE Support (2-3 decades)
+    
+Disadvantages:
+--------------
+
+    - Often Very large
+    - Technology lock in
+    - Implemented using single development stack
+    - Frequent deployments are not practical
+
+Big Problem:
+=============
+
+    - Internet
+    - Scalability & Flexibility
+    - Resources cannot be provided quickly as on demand
+
+
+
