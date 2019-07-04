@@ -1,4 +1,82 @@
 K8s Architecture:
 ==================
 
-    - s
+    - Making K8s architecture Easy
+    - High level overview
+    - Kubernetes Master
+    - Kubernetes Worker
+    - Kubernetes Architecture
+    - Terminology
+
+High level overview:
+--------------------
+
+    - Worker nodes - VM's running in cloud
+    - Compute, Storage resources to the apps
+
+    - POD - Scheduling unit K8s
+         - VM in Virtualization world
+         - Consists of one or more containers
+         - Containers reside inside POD
+
+    - Container
+
+        - run time environment for containerized apps
+        - Reside inside pod
+        - Designed to run microservices
+
+
+    Master
+
+        - Manage the whole cluster
+        
+
+In-depth Architecture:
+----------------------
+
+Master:
+-------
+
+        - Kubectl - interact with API Server
+        - API Server - expose various APIs
+        - Scheduler - Physcially Schedule PODS 
+        - ectd - Distributed K:V store
+        - Control Manager - Overall health of the Cluster
+
+
+    - Managing the entire cluster
+    Components of Master:
+
+        - API Server (Exposes various API for various operation)
+    
+    How to interact with the API
+    ----------------------------
+
+        - Kubectl/UI => API => API Server
+
+    Scheduler:
+    ==========
+
+        - Physcially scheduling pods across multiple nodes
+
+    Control Manager:
+    ================
+
+        - overall health of entire cluster
+
+        - Node
+        - Replication
+        - Endpoint
+        - Service account and Token Controllers
+
+
+    ectd:
+    ======
+
+        - Distributed K:V database
+        - Central DB to store cluster state at any point of time
+
+
+    
+
+    
