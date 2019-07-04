@@ -1,0 +1,41 @@
+Container Orchestration Engine:
+===============================
+
+How are the containers created and managed at such large scale?
+How do all these containers connect and communicate
+How do you scale the containers based on the scale up and down?
+
+Container Orchestration Engine:
+================================
+
+
+    - When COE is not required
+    - When will that be a problem
+    - What is COE
+    - COE Features
+
+When COE is not required?
+--------------------------
+
+    - 3 apps in a small company
+    - Scale and manage manually using basic tools
+
+Here is the problem?
+--------------------
+
+    - COE automates deploying, scaling, and managing containerized apps on a group of servers.
+    
+
+Features of COE:
+----------------
+
+    - Clustering
+    - Scheduling
+    - Scalability
+    - Load Balancing
+    - Fault Tolerance
+
+
+
+
+
