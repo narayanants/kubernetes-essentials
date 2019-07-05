@@ -1,0 +1,54 @@
+Play with k8s
+==============
+
+ - Qucikly test  something on the K8s cluster
+ - use Play-with-K8s
+
+
+ Part1 = overview
+
+ Part2 - Demo
+
+
+ Play-with-K8s:
+ --------------
+
+    - K8s playgrounds
+    - Mid 2017
+
+
+Configuring Master:
+===================
+
+- Add New Instance
+- Initialize Master Node
+-------------------------
+
+    kubeadmin init --apiserver-advertise-address $(hostname -i)
+    
+- Configure Network:
+---------------------
+    
+ kubectl apply -n kube-system -f \
+    "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')"
+
+- Execute the join command: (To add worker Nodess)
+---------------------------
+
+    
+kubeadm join 192.168.0.18:6443 --token 0ruw8l.9cqpbook7q5bp56j \
+    --discovery-token-ca-cert-hash sha256:0558845ec344699d11483edd826f6fb952626538b3535e0636d4574b0f7ba
+
+
+Configuring Worker:
+===================
+
+-   Add new Instance
+- Kubeadmin join command - Adds worker nodes to the cluster
+
+
+    Kubectl get no - Display the nodes in the cluster
+
+
+
+
