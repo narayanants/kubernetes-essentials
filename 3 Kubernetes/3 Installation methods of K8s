@@ -1,4 +1,10 @@
 installation methods of K8s
 ---------------------------
 
+    Play with K8s - No setup
+    Minikube - Small Setup
+    Kubeadm - Real time setup
+    Google Kubernetes Engine
+    EKS
+    AKS
     
