@@ -77,6 +77,52 @@ Master:
         - Central DB to store cluster state at any point of time
 
 
+Worker:
+=======
+
+    - Kubelet
+    - Kube Proxy
+
+
+    Kubelet:
+    --------
+
+        - Node Agent that runs inside each K8s worker nodes
+        - Looks in the Pods spec in the K8s master API Server and check whether the containers are running and healthy
+
+    Kube Proxy:
+    ===========
+
+    * Maintain the entire network configuration of the nodes and pods and containers
+    * exposes services to the outside world
+
+
+    - POD - Scheduling unit in the K8s
+    - Container - Each pod consists of one or more containers
+
+    - Multiple dependant containers with PODS
+
+
+
+Key Terminology:
+================
+
+     Kubernetes Master
+     -----------------
+    - API Server - Gateway to the Cluster. Interacts with Kubectl
+    - Scheduler - Physically schedule PODS on the cluster
+    - Control Manager - manage the overall health of the cluster
+    - etcd - Distributed K:V DB that stores the current state of the cluster
+
+    Kubernetes Worker:
+    ------------------
+
+    - Kubelet - Pods spec from API Server to maintain and deploy containers and their health
+    - Kube-proxy - maintain the distributed network configuration
+
+    
+
+
     
 
     
