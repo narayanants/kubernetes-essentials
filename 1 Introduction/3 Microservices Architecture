@@ -5,11 +5,10 @@ Microservices Architecture:
     - Scale up and down based on traffic
     - free from all technological dependencies
 
-
     Objectives:
     ===========
 
-        - What is Microservices>
+        - What is Microservices
         - Microservices Architecture
         - Advantages & Disadvantages
         - Microservices vs Monolithic
