@@ -9,7 +9,6 @@ Tightly coupled and run as single service           One service per process
 
 
 Adding or removing features becomes complex         Each service performs one single function
-
 Risk of app availability                            can be updated, deployed and scaled rapidly to meed demand
 
 
@@ -19,5 +18,3 @@ Where do all Microservices run?
     Physical Servers
     VM's
     Containers
-    
-
