@@ -11,3 +11,24 @@ K8s Commands:
     kubectl exec <pod-name> -c <container-name> date
     kubectl exec -it <pod-name> /bin/bash
     kubectl logs <pod-name>
+
+
+  Kubeadm commands:
+  ==================
+
+    kubeadm init - kubeadm init [flags]  * Initialize Master Node (On Master)
+    kubeadm join - kubeadm join --token [] * Initialize Worker Node (On Worker)        
+    kubeadm token - kubeadm token [create|delete|list|generate]
+    kubeadm version - kubeadm version [flags]
+    kubeadm upgrade - kubeadm upgrade plan [version] [flags]
+
+    Pod Manifest file
+    ==================
+
+        kubectl create -f pod.yaml
+        kubectl get pod
+        kubectl get pod -o wide
+        kubectl get pod nginx-pod -o yaml
+        kubectl describe pod nginx-pod
+        kubectl exec -it nginx-pod /bin/sh
+        kubectl delete pod nginx-pod
