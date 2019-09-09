@@ -40,12 +40,14 @@ Master:
         - Kubectl - interact with API Server
         - API Server - expose various APIs
         - Scheduler - Physcially Schedule PODS 
-        - ectd - Distributed K:V store
+        - etcd - Distributed K:V store
         - Control Manager - Overall health of the Cluster
 
 
     - Managing the entire cluster
+    
     Components of Master:
+    =====================
 
         - API Server (Exposes various API for various operation)
     
@@ -57,7 +59,7 @@ Master:
     Scheduler:
     ==========
 
-        - Physcially scheduling pods across multiple nodes
+        - Physically scheduling pods across multiple nodes
 
     Control Manager:
     ================
