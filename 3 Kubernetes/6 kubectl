@@ -1,0 +1,14 @@
+Kubectl:
+=========
+
+
+    kubectl create -f demo.yaml
+    kubectl get pods <pod-name>
+    kubectl describe nodes <node-name> - describe detailed info about the resource
+    kubectl describe pods <pod-name>
+    kubectl delete -f pod.yaml  - Delete Resource
+    kubectl delete pods --all
+    kubectl exec <pod-name> date
+    kubectl exec <pod-name> -c <container-name> date
+    kubectl exec -it <pod-name> /bin/bash
+    kubectl logs <pod-name>
