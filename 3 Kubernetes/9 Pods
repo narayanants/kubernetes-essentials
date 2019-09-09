@@ -1,0 +1,79 @@
+Pods:
+=====
+
+    - Basic Scheduling unit of K8s is Pods
+
+
+Concepts:
+==========
+
+    - What is a Pod?
+    - Pod Deployment
+    - Multi- Container
+    - Pod Networking
+    - Inter-pod and Intra-Pod Communication
+    - Pod Lifecycle
+    - Pod Manifest File
+
+
+    POD:
+    ===
+
+        - Atomic unit of Scheduling
+    
+
+    POD Networking:
+    ==============
+
+        - POD ID Address
+        - Container IP Address
+        - POD IP:<Port Number>
+
+    Inter POD Communication:
+    ========================
+        - POD Network
+
+    Intra POD Communication:
+    =========================
+
+        - Communicate over shared Local host
+
+    POD Lifecycle:
+    ===============
+
+        - Manifest File => API Server => Pending => Running => Succeeded 
+                                                ^
+                                                |
+                                                Failed
+
+        - When the POD dies, it dies
+
+    POD Manifest File:
+    ==================
+
+        apiVersion: v1
+        kind:pod
+        metadata:
+            name: nginx-pod
+            labels:
+                app:nginx
+                tier: dev
+        spec:
+            containers:
+            -   name: nginx-controller
+                image: nginx
+
+    Create & Display:
+    =================
+
+        kubectl create -f pod.yaml
+        kubectl get pod
+        kubectl get pod -o wide
+        kubectl get pod nginx-pod -o yaml
+        kubectl describe pod nginx-pod
+        kubectl exec -it nginx-pod /bin/sh
+        kubectl delete pod nginx-pod
+
+            
+
+
