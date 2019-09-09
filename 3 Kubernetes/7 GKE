@@ -1,0 +1,17 @@
+Google Kubernetes Engine:
+=========================
+
+GKE takes care of:
+
+    - Creating VMs
+    - Managing Kubernetes master
+    - ETCD
+    - Container Networking
+    - OS Built for Containers (CoreOS)
+    - Auto Scale
+    - Auto Upgrade
+    - Auto Repair
+    - Integrated Logging and Monitoring
+
+
+
