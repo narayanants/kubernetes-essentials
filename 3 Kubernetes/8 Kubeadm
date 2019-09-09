@@ -1,0 +1,40 @@
+Kubeadm
+========
+
+    - Kubeadm helps with installing and configuring K8s cluster
+    
+
+    Commands:
+    =========
+
+        kubeadm init - kubeadm init [flags]  * Initialize Master Node (On Master)
+        kubeadm join - kubeadm join --token [] * Initialize Worker Node (On Worker)        
+        kubeadm token - kubeadm token [create|delete|list|generate]
+        kubeadm version - kubeadm version [flags]
+        kubeadm upgrade - kubeadm upgrade plan [version] [flags]
+
+
+    Steps to initialize K8s cluster using Kubeadm:
+    ==============================================
+
+        - create VMs part of K8s cluster
+        - Disable SELinux and SWAP on all nodes
+        - Install kubeadm, kubelet, kubectl and Docker on all nodes
+            - Start and enable kubelet and Docker on all nodes
+        - Initialize the Master Node
+        - Configure POD Network
+        - Join Worker nodes to the cluster
+
+
+    Steps:
+    ======
+
+        - Launch VMs
+        - swapoff -a 
+        - setenforce 0 
+        - Reboot all nodes
+        - Install Docker
+        - Install Kubeadm, kubelet, kubectl
+        - Configure POD Network
+        - Join Worker nodes to cluster
+        
