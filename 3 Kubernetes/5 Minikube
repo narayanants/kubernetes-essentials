@@ -8,7 +8,7 @@ Minikube:
 
 
     Minikube:
-    ============
+    =========
 
     - Install and Run K8s Locally
     - Runs all components of K8s in a single node
