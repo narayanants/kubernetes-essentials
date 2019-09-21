@@ -2,7 +2,7 @@ K8s Commands:
 ==============
 
     kubectl create -f demo.yaml
-    kubectl get pod
+    kubectl get pods <pod-name>
     kubectl describe nodes <node-name> - describe detailed info about the resource
     kubectl describe pod <pod-name>
     kubectl delete -f pod.yaml  - Delete Resource
