@@ -3,8 +3,12 @@ Minikube:
 
     - Access K8s on the Laptop
 
-    Overview of Minikube
-    Review Demo
+   - Run K8s locally
+   - Run all K8s components in a single node VM
+   - Auto download ISO image and create VM
+   - Requires Hypervisor
+   - Requires kubectl to manage deployments
+    
 
 
     Minikube:
@@ -21,5 +25,7 @@ Minikube:
 
     minikube.exe start
     minikube status
-    kubectl get nos
+    kubectl get po
     minikube stop
+
+    
